@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 14px;
+    color: gray;
+}
+
+.code-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.code {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 5px;
+    border-radius: 5px;
+}
